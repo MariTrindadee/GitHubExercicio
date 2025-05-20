@@ -5,7 +5,7 @@ package exercicio1;
 
   public class Exercicio1 {
 
-    public static boolean ehNumeroPerfeito(int numero) {
+    public static boolean NumeroPerfeito(int numero) {
         if (numero <= 1) return false;
 
         int somaDivisores = 0;
@@ -21,6 +21,6 @@ package exercicio1;
 
     public static void main(String[] args) {
         int numero = 6;
-        System.out.println(numero + " é perfeito? " + ehNumeroPerfeito(numero));
+        System.out.println(numero + " é perfeito? " + NumeroPerfeito(numero));
     }
 }
